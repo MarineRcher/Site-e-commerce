@@ -100,60 +100,51 @@ li:hover .sous{
     float: none;
 }
 
+/* Form inscription */
 
-
-/* Corps page */
-
-.imageAcceuilChienChat {
-    margin-top: 4vh;
-    max-width: 80%;
-}
-
-.photo {
+.formIn {
     display: flex;
     justify-content: center;
+    padding: 1vh;
+   
    
 }
 
-
-/* News products */
-
-.newProducts {
-margin-top: 10vh;
-margin-left: 5vh;
-}
-
-.boxNewProducts{
+form {
     display: flex;
-flex-direction: row;
-align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 50vh;
+    min-height: 50vh;
+    margin:0;
+    padding: 0;
 }
 
-.newProduct1 {
-    border: 0.1rem;
-    border-radius: 40px;
-    height: 100%;
-    width: 100%;
-    padding: 8vh;
-    margin: 2vh;
-    background-color: #FFFFFF;
-    opacity: 0.60 ;
-    font-size: 2rem;
-    padding: 2vh;
+.username {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
 }
 
-.croquettes {
-    height: 15vh;
+
+.password {
+    border-radius: 7px;
 }
 
+.mail {
+    border-radius: 7px;
+}
 /* footer */
 footer {
     display: flex;
-    flex-direction: row;
+   
+    justify-content: flex-end;
     background-color: #222D41;
 }
 
 .foot {
     margin: 2vh;
     justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }

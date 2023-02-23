@@ -101,59 +101,57 @@ li:hover .sous{
 }
 
 
-
-/* Corps page */
-
-.imageAcceuilChienChat {
-    margin-top: 4vh;
-    max-width: 80%;
-}
-
-.photo {
+/* form connexion */
+form {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    min-width: 50vh;
+    min-height: 50vh;
+    margin:0;
+    padding: 0;
+    
+}
+
+.formConnexion {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.username {
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.password {
+    border-radius: 7px;
+}
+
+.lienInscription {
+    display: flex;
+    justify-content: center;
+   padding: 0;
+   margin-bottom: 5vh;
    
 }
+/* sign up */
 
 
-/* News products */
-
-.newProducts {
-margin-top: 10vh;
-margin-left: 5vh;
-}
-
-.boxNewProducts{
-    display: flex;
-flex-direction: row;
-align-items: center;
-}
-
-.newProduct1 {
-    border: 0.1rem;
-    border-radius: 40px;
-    height: 100%;
-    width: 100%;
-    padding: 8vh;
-    margin: 2vh;
-    background-color: #FFFFFF;
-    opacity: 0.60 ;
-    font-size: 2rem;
-    padding: 2vh;
-}
-
-.croquettes {
-    height: 15vh;
-}
 
 /* footer */
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-end;
     background-color: #222D41;
 }
 
 .foot {
     margin: 2vh;
     justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }

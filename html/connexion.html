@@ -5,7 +5,8 @@
   <title>Animal&co</title>
   <link rel="icon" type="image/x-icon" href="/img/logo.png">
   <link rel="stylesheet" href="/css/style.css">
-  
+  <link rel="stylesheet" href="/css/connexion.css">
+
 </head>
 <body>
 
@@ -23,11 +24,9 @@
           <a href="connexion.html"><strong>Se connecter</strong></a>
         </div>
   </header>
-
-
   <nav class="menu">
     <ul>
-        <li class="lien"><a href="/html/chat.html"><strong>Chat</strong></a>
+        <li class="lien"><a href="#"><strong>Chat</strong></a>
               <ul class="sous">
                     <li> <a href="#">Croquettes</a></li>
                     <li> <a href="#">Paté</a></li>
@@ -57,30 +56,29 @@
     </ul>
   </nav>
 
-  <div class="photo">
-     <img class="imageAcceuilChienChat" src="/img/acceuilChien&Chat.jpg" alt="lala">
-  </div>
 
-  <div class="newProducts">
-        <h1>Noouveaux Produits : </h1>
-      </div>
 
-      <div class="boxNewProducts">
-    <div class="newProduct1">
-    <img class="croquettes" src="/img/croquettes.jpeg">
-  </div>
+    <form action="" method="get" class="formCo">
+        <div class="formConnexion">
+            <label for="username">Entrez votre Username : </br> </label>
+      <input class="username" type="username" name="username" id="username" required> 
+        </div>
 
-    <div class="newProduct1">
-      <img class="croquettes" src="/img/croquettes1.jpeg">
-    </div>
-    <div class="newProduct1">
-      <img class="croquettes" src="/img/croquettes2.jpeg">
-    </div>
+        <div class="formConnexion">
+            <label for="password">Entrez votre mot de passe : </br></label>
+            <input class="password" type="password" name="password" id="password" required>
+        </div>
+            <div class="formConnexion">
+                <input type="submit" value="Connexion">
+            </div>
+    </form>
+ 
+<div class="lienInscription">
+    <p>Vous n'avez pas de comptes ?</p> 
+</div>
 
-    <div class="newProduct1">
-      <img class="croquettes" src="/img/aquarium.jpeg">
-    </div>
- </div>
+    <a class="lienInscription" href="inscription.html">Inscrivez-vous</a>
+
 
   <footer>
     <div class="foot">
